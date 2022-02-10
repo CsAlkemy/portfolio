@@ -1,14 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-import Header from "./Header"
-
 const Layout = ({ children }) => {
   return (
     <>
-      <div dark>
-        <Header />
-        <h1 className="text-black dark:text-white">hello</h1>
+      <div className="max-w-4xl mx-auto my-10">
         <main>{children}</main>
       </div>
     </>
