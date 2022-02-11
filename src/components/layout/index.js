@@ -3,11 +3,11 @@ import PropTypes from "prop-types"
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <div className="max-w-4xl mx-auto my-10">
+    <div className="bg-gray-50 dark:bg-gray-900 py-10 transition duration-700">
+      <div className="max-w-4xl mx-auto min-h-screen">
         <main>{children}</main>
       </div>
-    </>
+    </div>
   )
 }
 
