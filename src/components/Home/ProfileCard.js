@@ -8,12 +8,12 @@ const ProfileCard = () => {
   const [themeColor, setTheme] = useDarkMode()
   return (
     <>
-      <div className="dark:bg-black bg-gray-100 px-4 md:px-7 py-3 mx-3 md:mx-0 rounded-xl border-4 border-blue-400 shadow-md flex justify-between items-center">
+      <div className="dark:bg-black bg-white drop-shadow-md px-4 md:px-7 py-3 mx-3 md:mx-0 rounded-xl flex justify-between items-center">
         <div className="flex items-center gap-5">
           <img
             src={ProfileImage}
             alt="profile right face"
-            className="w-20 h-20 md:w-36 md:h-36 rounded-full object-cover object-center border-4 border-blue-400"
+            className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover object-center border-4 border-blue-400"
           />
           <div className="tracking-wide">
             <p className="dark:text-white text-xl md:text-3xl font-medium">
@@ -33,9 +33,9 @@ const ProfileCard = () => {
             className="cursor-pointer"
           >
             {themeColor === "dark" ? (
-              <BsFillMoonStarsFill className="bg-gray-900 h-9 w-9 md:h-12 md:w-12 text-white rounded-full p-2" />
+              <BsFillMoonStarsFill className="bg-gray-900 h-9 w-9 md:h-10 md:w-10 text-white rounded-full p-2" />
             ) : (
-              <MdOutlineWbSunny className="bg-white h-9 w-9 md:h-12 md:w-12 text-black rounded-full p-1" />
+              <MdOutlineWbSunny className="bg-white h-9 w-9 md:h-10 md:w-10 text-black rounded-full p-1" />
             )}
           </button>
         </div>
