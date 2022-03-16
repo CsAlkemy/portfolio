@@ -6,7 +6,7 @@ import { SiUpwork } from "react-icons/si"
 
 const About = props => {
   return (
-    <div className="px-5 my-10 mx-3 md:mx-0 bg-gray-100  dark:bg-transparent border-2 border-gray-700 dark:text-gray-50 py-5 rounded-md">
+    <div className="px-5 my-10 mx-3 md:mx-0 bg-gray-100  dark:bg-transparent dark:text-gray-50 py-5 rounded-md">
       <div className="text-2xl md:text-3xl font-bold mb-2">
         {Data.about.title}
       </div>
