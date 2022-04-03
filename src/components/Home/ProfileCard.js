@@ -13,7 +13,7 @@ const ProfileCard = () => {
           <img
             src={ProfileImage}
             alt="profile right face"
-            className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover object-center border-4 border-cyan-400"
+            className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover object-center border-4 border-emerald-400"
           />
           <div className="tracking-wide">
             <p className="dark:text-white text-xl md:text-3xl font-medium">
