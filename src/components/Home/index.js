@@ -10,9 +10,16 @@ import CertificateCard from "../Common/CertificateCard";
 //Components***
 //Icon And Images
 import IconReact from '../../images/reactIcon.png'
-import IconVue from '../../images/vue.png'
 import IconNext from '../../images/next.png'
+import IconVue from '../../images/vue.png'
+import IconGatsby from '../../images/gatsby-icon.png'
+import IconNode from '../../images/node.png'
+import IconGraphQl from '../../images/graphql.png'
+import IconTailwind from '../../images/tailwind.png'
 import IconD3 from '../../images/d3.png'
+import IconGit from '../../images/git-icon.jpg'
+import IconJira from '../../images/jira.png'
+
 import LogoWtv from '../../images/wtv.jpg'
 import LogoZap from '../../images/zaptwo.png'
 import LogoDataCamp from '../../images/datacamp.png'
@@ -26,20 +33,54 @@ import ProjectThree from '../../images/project3.png'
 const index = () => {
   const technicalData = [
     {
-      name: "react",
+      id:1,
+      name: "React Js",
       icon:IconReact
     },
     {
-      name: "Gatsby",
-      icon:IconVue
-    },
-    {
-      name: "Netlify",
+      id:2,
+      name: "Next Js",
       icon:IconNext
     },
     {
-      name: "TypeScript",
+      id:3,
+      name: "Vue Js",
+      icon:IconVue
+    },
+    {
+      id:4,
+      name: "Gatsby",
+      icon:IconGatsby
+    },
+    {
+      id:5,
+      name: "Node Js",
+      icon:IconNode
+    },
+    {
+      id:6,
+      name: "Tailwind CSS",
+      icon:IconTailwind
+    },
+    {
+      id:7,
+      name: "GraphQl",
+      icon:IconGraphQl
+    },
+    {
+      id:8,
+      name: "D3 js",
       icon:IconD3
+    },
+    {
+      id:9,
+      name: "Version control",
+      icon:IconGit
+    },
+    {
+      id:10,
+      name: "Agila",
+      icon:IconJira
     }
   ]
   const experienceCardData = [
@@ -49,15 +90,15 @@ const index = () => {
       position:"Software Engineer",
       joiningDate:"Oct-21",
       endDate:"present",
-      discription:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officia?",
+      discription:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
       companyIcon:LogoWtv
     },{
       id:2,
       companyName:"ZapTwo",
       position:"Software Engineer",
-      joiningDate:"Oct-2021",
-      endDate:"Mar-20",
-      discription:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officia?",
+      joiningDate:"Mar-20",
+      endDate:"Oct-21",
+      discription:"Architect and Developed Tourgo a web application for booking hotel rooms, and tour packages and offers using Node.js, MongoDB, pugJs, and, Typescript.",
       companyIcon:LogoZap
     }
   ]

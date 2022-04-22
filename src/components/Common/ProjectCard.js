@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 px-4 md:px-7 py-3 mx-3 md:mx-0'>
     {props?.projects.map((project) => 
-        <div key={project.id} className='dark:text-white text-black'>
+        <div key={project.id} className='dark:text-white text-black relative transform duration-500 hover:-translate-y-1 hover:cursor-pointer'>
             <div className='p-2 bg-gray-700 rounded-t-sm'>
                 <img src={project.projectBanner} alt={project.projectName} className="object-cover rounded-lg" />
             </div>
