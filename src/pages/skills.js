@@ -3,16 +3,16 @@ import * as React from "react"
 import Layout from "../components/layout/index"
 import Seo from "../components/seo"
 import HeaderNavigation from "../components/Common/headerNavigation"
-import ProjectCard from "../components/Common/ProjectCard"
+import SkillsCard from "../components/Common/SkillsCard"
 
-const SecondPage = () => (
+const Skills = () => (
   <Layout>
     <Seo title="Projects" />
     <HeaderNavigation />
     <div className="px-0">
-      <ProjectCard />
+      <SkillsCard />
     </div>
   </Layout>
 )
 
-export default SecondPage
+export default Skills

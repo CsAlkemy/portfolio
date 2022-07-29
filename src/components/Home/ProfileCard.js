@@ -8,6 +8,7 @@ const ProfileCard = () => {
   const [themeColor, setTheme] = useDarkMode()
   return (
     <>
+    
       <div className="dark:bg-black bg-white drop-shadow-md px-4 md:px-7 py-3 mx-3 md:mx-0 rounded-xl flex justify-between items-center">
         <div className="flex items-center gap-5">
           <img
