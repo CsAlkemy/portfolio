@@ -93,7 +93,7 @@ const ProjectCard = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 px-4 md:px-7 py-3 mx-3 md:mx-0'>
         {projects.map((project) => 
-            <div key={project.id} onMouseDown={()=>bigCardClickHandller(project)} role='button' tabIndex='0' className='dark:text-white text-black relative transform duration-500 hover:-translate-y-1 hover:cursor-pointer border-2 dark:border-gray-900 border-gray-100 dark:shadow-none shadow-emerald-50 bg-black'>
+            <div key={project.id} onMouseDown={()=>bigCardClickHandller(project)} role='button' tabIndex='0' className='dark:text-white text-black relative transform duration-500 hover:-translate-y-1 hover:cursor-pointer border-2 dark:border-gray-900 border-gray-100 dark:shadow-none shadow-emerald-50 bg-white dark:bg-black'>
                 <div className='p-2 bg-gray-700 rounded-t-sm'>
                     <img src={project.projectBanner} alt={project.projectName} className="object-cover rounded-lg" />
                 </div>
