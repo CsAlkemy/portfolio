@@ -2,7 +2,8 @@ import React from "react"
 import { BsFillMoonStarsFill } from "react-icons/bs"
 import { MdOutlineWbSunny } from "react-icons/md"
 import useDarkMode from "../../hooks/useDarkMode"
-import ProfileImage from "../../images/profile.jpeg"
+import ProfileImage from "../../images/profile.png"
+import ProfileImageDark from "../../images/profileDark.png"
 
 const ProfileCard = () => {
   const [themeColor, setTheme] = useDarkMode()
@@ -12,7 +13,7 @@ const ProfileCard = () => {
       <div className="dark:bg-black bg-white drop-shadow-md px-4 md:px-7 py-3 mx-3 md:mx-0 rounded-xl flex justify-between items-center">
         <div className="flex items-center gap-5">
           <img
-            src={ProfileImage}
+            src={themeColor  === 'light' ? ProfileImage:ProfileImageDark}
             alt="profile right face"
             className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover object-center border-4 border-emerald-400"
           />

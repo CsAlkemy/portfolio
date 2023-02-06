@@ -3,6 +3,7 @@ import Data from "../../data/Data.json"
 import { FaTwitterSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa"
 import { MdOutlineAttachFile } from "react-icons/md"
 import { SiUpwork } from "react-icons/si"
+import fileLocation from '../../file/Alkemy_Hossain_Resume.pdf'
 
 const About = props => {
   return (
@@ -60,10 +61,10 @@ const About = props => {
         </div>
         <div className="p-4 rounded-md dark:bg-black bg-white dark:shadow-none shadow-sm border-l-4 border-emerald-500">
           <div className="text-2xl font-bold">Download CV</div>
-          <button className="flex flex-row py-2 px-4 dark:bg-emerald-500 bg-black hover:bg-emerald-500 hover:text-white dark:hover:bg-gray-800 dark:hover:text-white dark:text-black text-white rounded-sm font-bold mt-2 shadow-md">
+          <a href={fileLocation} download className="flex flex-row py-2 px-4 dark:bg-emerald-500 w-32 max-w-32 bg-black hover:bg-emerald-500 hover:text-white dark:hover:bg-gray-800 dark:hover:text-white dark:text-black text-white rounded-sm font-bold mt-2 shadow-md">
             <span>Download</span>
             <MdOutlineAttachFile className="w-5 my-auto h-5 ml-2 dark:text-black rotate-45" />
-          </button>
+          </a>
         </div>
       </div>
     </div>

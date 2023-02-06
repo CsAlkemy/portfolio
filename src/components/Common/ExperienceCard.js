@@ -1,5 +1,6 @@
 import React from 'react'
 import LogoWtv from '../../images/wtv.jpg'
+import LogoFront from '../../images/frontPayment.png'
 import LogoZap from '../../images/zaptwo.png'
 
 const ExpCard = (props) => {
@@ -10,15 +11,25 @@ const ExpCard = (props) => {
           position:"Software Engineer",
           joiningDate:"Oct-21",
           endDate:"present",
-          discription:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
+            description:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
           companyIcon:LogoWtv
-        },{
-          id:2,
+        },
+        {
+            id:2,
+            companyName:"Front Payment",
+            position:"Software Engineer",
+            joiningDate:"Mar-20",
+            endDate:"present",
+            description:"Developed FrontGo, that is built for the Norwegian market for financing, payment,& administration, preferably for small and medium-sized enterprises.",
+            companyIcon:LogoFront
+        },
+        {
+          id:3,
           companyName:"ZapTwo",
           position:"Software Engineer",
           joiningDate:"Mar-20",
           endDate:"Oct-21",
-          discription:"Architect and Developed Tourgo a web application for booking hotel rooms, and tour packages and offers using Node.js, MongoDB, pugJs, and, Typescript.",
+            description:"Architect and Developed Tourgo a web application for booking hotel rooms, and tour packages and offers using Node.js, MongoDB, pugJs, and, Typescript.",
           companyIcon:LogoZap
         }
     ]
@@ -41,7 +52,7 @@ const ExpCard = (props) => {
                     </div>
                 </div>
                 <div className='p-3 bg-gray-300 dark:bg-gray-900 rounded-lg mt-3'>
-                    {index?.discription}
+                    {index?.description}
                 </div>
             </div>
             )}
