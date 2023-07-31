@@ -9,16 +9,16 @@ const ExpCard = (props) => {
           id:1,
           companyName:"World Television",
           position:"Software Engineer",
-          joiningDate:"Oct-21",
-          endDate:"present",
+          joiningDate:"Nov-20",
+          endDate:"May-22",
             description:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
           companyIcon:LogoWtv
         },
         {
             id:2,
-            companyName:"Front Payment",
+            companyName:"Front Payment (ELO)",
             position:"Software Engineer",
-            joiningDate:"Mar-20",
+            joiningDate:"June-22",
             endDate:"present",
             description:"Developed FrontGo, that is built for the Norwegian market for financing, payment,& administration, preferably for small and medium-sized enterprises.",
             companyIcon:LogoFront
