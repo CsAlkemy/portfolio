@@ -1,36 +1,36 @@
 import React from 'react'
 import LogoWtv from '../../images/wtv.jpg'
 import LogoFront from '../../images/frontPayment.png'
-import LogoZap from '../../images/zaptwo.png'
+import LogoChamp from '../../images/champTech.jpg'
 
 const ExpCard = (props) => {
     const experienceCardData = [
         {
           id:1,
-          companyName:"World Television",
+          companyName:"World Television (Tulip)",
           position:"Software Engineer",
-          joiningDate:"Nov-20",
-          endDate:"May-22",
+          joiningDate:"Nov-21",
+          endDate:"present",
             description:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
           companyIcon:LogoWtv
         },
         {
             id:2,
-            companyName:"Front Payment (ELO)",
+            companyName:"Front Payment(ELO)",
             position:"Software Engineer",
-            joiningDate:"June-22",
-            endDate:"present",
+            joiningDate:"Nov-20",
+            endDate:"Nov-21",
             description:"Developed FrontGo, that is built for the Norwegian market for financing, payment,& administration, preferably for small and medium-sized enterprises.",
             companyIcon:LogoFront
         },
         {
           id:3,
-          companyName:"ZapTwo",
-          position:"Software Engineer",
+          companyName:"ChampTech",
+          position:"Jr. Software Engineer",
           joiningDate:"Mar-20",
-          endDate:"Oct-21",
+          endDate:"Nov-20",
             description:"Architect and Developed Tourgo a web application for booking hotel rooms, and tour packages and offers using Node.js, MongoDB, pugJs, and, Typescript.",
-          companyIcon:LogoZap
+          companyIcon:LogoChamp
         }
     ]
 
