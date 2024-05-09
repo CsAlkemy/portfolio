@@ -14,6 +14,7 @@ import IconTs from '../../images/ts.png'
 import IconStory from '../../images/story.png'
 import IconMongo from '../../images/mongo.png'
 import IconNative from '../../images/reactnative.webp'
+import IconShad from '../../images/shadcn.png'
 
 
 const technicalIcon = () => {
@@ -47,6 +48,11 @@ const technicalIcon = () => {
             id:5,
             name: "Nest Js",
             icon:IconNest
+        },
+        {
+            id:5.5,
+            name: "Shadcn UI",
+            icon:IconShad
         },
         {
           id:6,
@@ -97,7 +103,7 @@ const technicalIcon = () => {
       ]
     return (
     <>
-        <div className='grid grid-cols-3 md:grid-cols-8 gap-3 px-4 md:px-7 py-3 mx-3 md:mx-0 bg-white dark:bg-black rounded-lg '>
+        <div className='grid grid-cols-3 md:grid-cols-9 gap-3 px-4 md:px-7 py-3 mx-3 md:mx-0 bg-white dark:bg-black rounded-lg '>
             {technicalData.map((index)=>
             <div key={index.id} className='p-2 rounded-lg flex flex-col justify-center items-center relative transform duration-500 hover:-translate-y-1 hover:cursor-pointer hover:bg-gray-900'>
                 <img src={index.icon} alt={index.name} className={`${index.name === 'Tailwind CSS' ? 'rounded-full object-cover':'object-cover'}`}/>
