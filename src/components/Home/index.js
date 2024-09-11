@@ -1,6 +1,4 @@
 import React from "react"
-
-//Components
 import About from "./About"
 import SmallHeader from "./SmallHeader";
 import ProfileCard from "./ProfileCard"
@@ -13,7 +11,7 @@ const index = () => {
 
 
 
-  
+
   return (
     <div>
       <ProfileCard />
