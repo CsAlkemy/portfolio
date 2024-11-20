@@ -11,25 +11,25 @@ const ExpCard = (props) => {
           position:"Software Engineer",
           joiningDate:"Nov-21",
           endDate:"present",
-            description:"Working on the Development of ConnectStudio and some web application for a streaming platform using NextJS, SCSS as part of global team of WtvGlobal UK.",
+            description:"Developed ConnectStudio, a streaming platform web app, using Next.js and SCSS, contributing to a global team for WtvGlobal UK. Also, develop CareApp, a healthcare management application for Care Homes of UK.",
           companyIcon:LogoWtv
         },
         {
             id:2,
             companyName:"Front Payment(ELO)",
-            position:"Software Engineer",
-            joiningDate:"Nov-20",
-            endDate:"Nov-21",
-            description:"Developed FrontGo, that is built for the Norwegian market for financing, payment,& administration, preferably for small and medium-sized enterprises.",
+            position:"Software Engineer-pt",
+            joiningDate:"June-22",
+            endDate:"July-23",
+            description:"Built Frontpayment GO a financial web application for companies to integrate with accounting systems, using ReactJS, MUI, and React Fuse as part of a global team for Frontpayment Norway.",
             companyIcon:LogoFront
         },
         {
           id:3,
           companyName:"ChampTech",
           position:"Jr. Software Engineer",
-          joiningDate:"Mar-20",
-          endDate:"Nov-20",
-            description:"Architect and Developed Tourgo a web application for booking hotel rooms, and tour packages and offers using Node.js, MongoDB, pugJs, and, Typescript.",
+          joiningDate:"Mar-21",
+          endDate:"Nov-21",
+            description:"Architected and Developed Tourgo, a booking platform for hotels and tour packages, with Node.js, MongoDB, Typescript, and, Pug.Js.",
           companyIcon:LogoChamp
         }
     ]
